@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	height:100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	}
+	
+	body{
+		height:100%;
+		display: flex;
+		justify-content:centre;
+		align-items: center;
+		background-image:linear-gradient(#96CF24, #006838);
+		}
+		
+	.container{
+		width:800px;
+		margin:150px auto;
+		color:#639;
+		text-align:center;
+		text-transform:uppercase;
+		}
+	
+	h2{
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif
+		font-weight:100;
+		font-size:2.6em;
+		text-transform:uppercase;
+		}	
+		
+	#seconds, .dots, #tens{
+		font-size:2em;
+		font-weight:bold;}	
+		
+	button{
+		width:150px;
+		border:1px solid #C9C;
+		border-radius:2.6em;
+		text-transform:uppercase;
+		background-color:#1D1B1B;
+		color:#EC4D37;
+		text-decoration:none;
+		margin: 10px;
+		padding:18px 18px;
+		font-size:1.2em;
+		outline:none;
+		margin-top:20px;
+		cursor:pointer;
+		}
+		
+	 button:hover{
+		transition: all 0.5s ease-in-out;
+		background-color:#069;
+		color:#080A52;
+		background-image:linear-gradient(#B88746, #FDF5A6);
+		border: 1px solid #666;
+		}						
